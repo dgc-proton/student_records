@@ -1,0 +1,564 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="QRfBVMaxlZtx_pAXQoiO">
+    <mxGraphModel dx="782" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vyHls2FTnKNsInNVu_F4-16" value="&#xa;" style="swimlane;startSize=0;verticalAlign=top;align=center;fontStyle=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 4 1 4;" parent="1" vertex="1">
+          <mxGeometry x="30" y="10" width="270" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-18" value="Description of the class" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="vyHls2FTnKNsInNVu_F4-16" vertex="1">
+          <mxGeometry x="10" y="240" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-19" value="&lt;b&gt;This represents a class&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;where its methods may be called without instantiating an object&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-18" vertex="1">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-11" value="desctiption of the object&#39;s class" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-16" vertex="1">
+          <mxGeometry x="160" y="240" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-12" value="&lt;b&gt;This represents an object&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-11" vertex="1">
+          <mxGeometry y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Key&lt;/h1&gt;&lt;p&gt;This diagram shows the relationships between the different classes at runtime. It uses an example which illustrates how two RecordArray or RecordLinkedList objects would interact with RecordvB objects.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="vyHls2FTnKNsInNVu_F4-16" vertex="1">
+          <mxGeometry width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-165" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;dashed=1;" parent="vyHls2FTnKNsInNVu_F4-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="210" as="sourcePoint" />
+            <mxPoint x="77" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-166" value="Blue dotted lines indicate a&lt;div&gt;pointer;&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;the arrow is the object&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;that the&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pointer is to&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vyHls2FTnKNsInNVu_F4-165" vertex="1" connectable="0">
+          <mxGeometry x="-0.4105" y="-1" relative="1" as="geometry">
+            <mxPoint x="120" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-170" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;exitX=-0.02;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="vyHls2FTnKNsInNVu_F4-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="68" y="159.71" as="sourcePoint" />
+            <mxPoint x="10" y="159.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-171" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-170" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-172" value="&#39;Friend&#39; links show how RecordArray (or LinkedList) is able to access protected methods of Record objects" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="vyHls2FTnKNsInNVu_F4-16" vertex="1">
+          <mxGeometry x="70" y="130" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-29" value="&lt;b&gt;RecordArray or RecordLinkedList&lt;/b&gt;&lt;div&gt;(specialised to RecordvB)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="90" y="440" width="200" height="40" as="geometry">
+            <mxRectangle x="160" y="360" width="230" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-41" value="&#xa;" style="swimlane;startSize=0;verticalAlign=top;align=center;fontStyle=1;fillColor=#ffff88;strokeColor=#36393d;dashed=1;dashPattern=8 4 1 4;" parent="1" vertex="1">
+          <mxGeometry x="310" y="10" width="490" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-46" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Class Details&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p&gt;&lt;br style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="vyHls2FTnKNsInNVu_F4-41" vertex="1">
+          <mxGeometry width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-3" value="&lt;b&gt;RecordArray or RecordLinkedList&lt;/b&gt;&lt;div&gt;(specialised to a specific child class of BasicRecord using template)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-41" vertex="1">
+          <mxGeometry x="10" y="40" width="230" height="260" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-4" value="Contains pointers to multiple objects of one particular child class of BasicRecord." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-3" vertex="1">
+          <mxGeometry y="40" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-5" value="Can access the protected reference counting (included_in) methods of Record object types via RecordAttorney." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-3" vertex="1">
+          <mxGeometry y="70" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-6" value="Creates new Record objects, allocates memory for them and increments/decrements their included_in counter." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-3" vertex="1">
+          <mxGeometry y="120" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-28" value="Deallocates memory for Record objects if the pointer to the record is to be deleted and the pointer to it is the last remaining pointer (defined by the value of the Record object&#39;s included_in)." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-3" vertex="1">
+          <mxGeometry y="180" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-34" value="&lt;b&gt;Record(vA, vB or vC)&lt;/b&gt;&lt;div&gt;(child classes of BasicRecord)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-41" vertex="1">
+          <mxGeometry x="250" y="40" width="230" height="100" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-35" value="Keeps a count (included_in) of how many RecordArray or RecordLinkedList objects hold pointers to it." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-34" vertex="1">
+          <mxGeometry y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-39" value="&lt;div&gt;&lt;b&gt;Field (e.g. Name, StudentID etc)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(child classes of BasicField)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-41" vertex="1">
+          <mxGeometry x="250" y="150" width="230" height="100" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-40" value="Holds data for a particular field. One field object will only be contained in one class, so memory does not need to be manually allocated or deallocated for it." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-39" vertex="1">
+          <mxGeometry y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-7" value="RecordAttorney" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="vyHls2FTnKNsInNVu_F4-41" vertex="1">
+          <mxGeometry x="250" y="260" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-8" value="This class has methods which provide access to protected methods of Record class objects, as part of an attorney-client design pattern." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="vyHls2FTnKNsInNVu_F4-7" vertex="1">
+          <mxGeometry y="30" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-47" value="&lt;h1 style=&quot;forced-color-adjust: none; margin-top: 0px;&quot;&gt;System Structure Diagram&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="254" y="390" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-48" value="&lt;b&gt;RecordArray or RecordLinkedList&lt;/b&gt;&lt;div&gt;(specialised to RecordvB)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1" collapsed="1">
+          <mxGeometry x="510" y="440" width="210" height="40" as="geometry">
+            <mxRectangle x="160" y="360" width="230" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-73" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="270" y="640" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-75" value="&lt;div&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-73" vertex="1">
+          <mxGeometry x="40" y="60" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-76" value="&lt;div&gt;&lt;b&gt;StudentID&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-73" vertex="1">
+          <mxGeometry x="40" y="90" width="70" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-77" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="9.919999999999959" as="sourcePoint" />
+            <mxPoint x="-10" y="9.919999999999959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-78" value="&lt;div&gt;&lt;b&gt;Degree&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-73" vertex="1">
+          <mxGeometry x="40" y="120" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-79" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="vyHls2FTnKNsInNVu_F4-73" target="vyHls2FTnKNsInNVu_F4-74" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="130" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-80" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-73" source="vyHls2FTnKNsInNVu_F4-78" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-80" as="sourcePoint" />
+            <mxPoint x="30" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-81" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-73" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="69.91999999999996" as="sourcePoint" />
+            <mxPoint x="30" y="69.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-88" value="" style="group" parent="vyHls2FTnKNsInNVu_F4-73" vertex="1" connectable="0">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-74" value="&lt;b&gt;RecordvB&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-88" vertex="1">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-86" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;" parent="vyHls2FTnKNsInNVu_F4-88" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="16" as="sourcePoint" />
+            <mxPoint x="60" y="16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-87" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-86" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-82" value="RecordAttorney" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="350" y="445" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-84" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashPattern=1 1;" parent="1" target="vyHls2FTnKNsInNVu_F4-82" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="500" as="sourcePoint" />
+            <mxPoint x="400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-85" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=-90;" parent="vyHls2FTnKNsInNVu_F4-84" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-89" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="150" y="641" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-90" value="&lt;div&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-89" vertex="1">
+          <mxGeometry x="40" y="60" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-91" value="&lt;div&gt;&lt;b&gt;StudentID&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-89" vertex="1">
+          <mxGeometry x="40" y="90" width="70" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-92" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-91" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="9.919999999999959" as="sourcePoint" />
+            <mxPoint x="-10" y="9.919999999999959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-93" value="&lt;div&gt;&lt;b&gt;Degree&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-89" vertex="1">
+          <mxGeometry x="40" y="120" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-94" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="vyHls2FTnKNsInNVu_F4-89" target="vyHls2FTnKNsInNVu_F4-98" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="130" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-95" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-89" source="vyHls2FTnKNsInNVu_F4-93" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-80" as="sourcePoint" />
+            <mxPoint x="30" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-96" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-89" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="69.91999999999996" as="sourcePoint" />
+            <mxPoint x="30" y="69.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-97" value="" style="group" parent="vyHls2FTnKNsInNVu_F4-89" vertex="1" connectable="0">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-98" value="&lt;b&gt;RecordvB&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-97" vertex="1">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-99" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;" parent="vyHls2FTnKNsInNVu_F4-97" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="16" as="sourcePoint" />
+            <mxPoint x="60" y="16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-100" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-99" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-101" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="30" y="641" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-102" value="&lt;div&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-101" vertex="1">
+          <mxGeometry x="40" y="60" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-103" value="&lt;div&gt;&lt;b&gt;StudentID&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-101" vertex="1">
+          <mxGeometry x="40" y="90" width="70" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-104" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-103" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="9.919999999999959" as="sourcePoint" />
+            <mxPoint x="-10" y="9.919999999999959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-105" value="&lt;div&gt;&lt;b&gt;Degree&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-101" vertex="1">
+          <mxGeometry x="40" y="120" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-106" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="vyHls2FTnKNsInNVu_F4-101" target="vyHls2FTnKNsInNVu_F4-110" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="130" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-107" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-101" source="vyHls2FTnKNsInNVu_F4-105" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-80" as="sourcePoint" />
+            <mxPoint x="30" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-108" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-101" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="69.91999999999996" as="sourcePoint" />
+            <mxPoint x="30" y="69.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-109" value="" style="group" parent="vyHls2FTnKNsInNVu_F4-101" vertex="1" connectable="0">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-110" value="&lt;b&gt;RecordvB&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-109" vertex="1">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-111" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;" parent="vyHls2FTnKNsInNVu_F4-109" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="16" as="sourcePoint" />
+            <mxPoint x="60" y="16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-112" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-111" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-113" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;exitX=-0.02;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-82" target="vyHls2FTnKNsInNVu_F4-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="459.8" as="sourcePoint" />
+            <mxPoint x="320" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-114" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-113" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-115" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-48" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-116" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-115" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-119" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;dashed=1;" parent="1" source="vyHls2FTnKNsInNVu_F4-29" target="vyHls2FTnKNsInNVu_F4-110" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="510" as="sourcePoint" />
+            <mxPoint x="220" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-122" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;dashed=1;" parent="1" source="vyHls2FTnKNsInNVu_F4-29" target="vyHls2FTnKNsInNVu_F4-98" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="510" as="sourcePoint" />
+            <mxPoint x="120" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-123" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-29" target="vyHls2FTnKNsInNVu_F4-74" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="480" as="sourcePoint" />
+            <mxPoint x="180" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-124" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="390" y="641" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-125" value="&lt;div&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-124" vertex="1">
+          <mxGeometry x="40" y="60" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-126" value="&lt;div&gt;&lt;b&gt;StudentID&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-124" vertex="1">
+          <mxGeometry x="40" y="90" width="70" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-127" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-126" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="9.919999999999959" as="sourcePoint" />
+            <mxPoint x="-10" y="9.919999999999959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-128" value="&lt;div&gt;&lt;b&gt;Degree&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-124" vertex="1">
+          <mxGeometry x="40" y="120" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-129" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="vyHls2FTnKNsInNVu_F4-124" target="vyHls2FTnKNsInNVu_F4-133" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="130" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-130" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-124" source="vyHls2FTnKNsInNVu_F4-128" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-80" as="sourcePoint" />
+            <mxPoint x="30" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-131" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-124" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="69.91999999999996" as="sourcePoint" />
+            <mxPoint x="30" y="69.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-132" value="" style="group" parent="vyHls2FTnKNsInNVu_F4-124" vertex="1" connectable="0">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-133" value="&lt;b&gt;RecordvB&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-132" vertex="1">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-134" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;" parent="vyHls2FTnKNsInNVu_F4-132" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="16" as="sourcePoint" />
+            <mxPoint x="60" y="16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-135" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-134" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-136" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="510" y="641" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-137" value="&lt;div&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-136" vertex="1">
+          <mxGeometry x="40" y="60" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-138" value="&lt;div&gt;&lt;b&gt;StudentID&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-136" vertex="1">
+          <mxGeometry x="40" y="90" width="70" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-139" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-138" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="9.919999999999959" as="sourcePoint" />
+            <mxPoint x="-10" y="9.919999999999959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-140" value="&lt;div&gt;&lt;b&gt;Degree&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-136" vertex="1">
+          <mxGeometry x="40" y="120" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-141" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="vyHls2FTnKNsInNVu_F4-136" target="vyHls2FTnKNsInNVu_F4-145" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="130" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-142" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-136" source="vyHls2FTnKNsInNVu_F4-140" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-80" as="sourcePoint" />
+            <mxPoint x="30" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-143" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-136" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="69.91999999999996" as="sourcePoint" />
+            <mxPoint x="30" y="69.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-144" value="" style="group" parent="vyHls2FTnKNsInNVu_F4-136" vertex="1" connectable="0">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-145" value="&lt;b&gt;RecordvB&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-144" vertex="1">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-146" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;" parent="vyHls2FTnKNsInNVu_F4-144" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="16" as="sourcePoint" />
+            <mxPoint x="60" y="16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-147" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-146" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-148" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="630" y="641" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-149" value="&lt;div&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-148" vertex="1">
+          <mxGeometry x="40" y="60" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-150" value="&lt;div&gt;&lt;b&gt;StudentID&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-148" vertex="1">
+          <mxGeometry x="40" y="90" width="70" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-151" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-150" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="9.919999999999959" as="sourcePoint" />
+            <mxPoint x="-10" y="9.919999999999959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-152" value="&lt;div&gt;&lt;b&gt;Degree&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-148" vertex="1">
+          <mxGeometry x="40" y="120" width="60" height="20" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-153" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="vyHls2FTnKNsInNVu_F4-148" target="vyHls2FTnKNsInNVu_F4-157" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="130" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-154" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-148" source="vyHls2FTnKNsInNVu_F4-152" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="-80" as="sourcePoint" />
+            <mxPoint x="30" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-155" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="vyHls2FTnKNsInNVu_F4-148" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="69.91999999999996" as="sourcePoint" />
+            <mxPoint x="30" y="69.91999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-156" value="" style="group" parent="vyHls2FTnKNsInNVu_F4-148" vertex="1" connectable="0">
+          <mxGeometry width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-157" value="&lt;b&gt;RecordvB&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vyHls2FTnKNsInNVu_F4-156" vertex="1">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle x="140" y="170" width="320" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-158" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffcc99;strokeColor=#FFB570;dashPattern=1 1;" parent="vyHls2FTnKNsInNVu_F4-156" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="16" as="sourcePoint" />
+            <mxPoint x="60" y="16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-159" value="Friend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FFB570;rotation=0;" parent="vyHls2FTnKNsInNVu_F4-158" vertex="1" connectable="0">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-160" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-48" target="vyHls2FTnKNsInNVu_F4-133" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="550" as="sourcePoint" />
+            <mxPoint x="360" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-161" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-29" target="vyHls2FTnKNsInNVu_F4-133" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="530" as="sourcePoint" />
+            <mxPoint x="370" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-162" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-48" target="vyHls2FTnKNsInNVu_F4-145" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-163" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#0000FF;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-48" target="vyHls2FTnKNsInNVu_F4-157" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="570" as="sourcePoint" />
+            <mxPoint x="640" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-164" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vyHls2FTnKNsInNVu_F4-29" target="vyHls2FTnKNsInNVu_F4-145" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="830" as="sourcePoint" />
+            <mxPoint x="710" y="934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vyHls2FTnKNsInNVu_F4-169" value="Note how if this RecordArray goes out of scope, then it will free the memory of this RecordvB object because this is the last pointer to the RecordvB object" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=13.2;dy=22;size=5;boundedLbl=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="650" y="500" width="140" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
