@@ -107,21 +107,12 @@ Owner: Yousef
 classDiagram
     DataArray
     
-    Enum_Compare
-    
     BasicField
     BasicField <|-- IntegerWithLimits
     BasicField <|-- Name
     BasicField <|-- StudentID
     BasicField <|-- DegreeProgramme
     BasicField <|-- EnrollmentYear
-
-    %% class Enum_Compare{
-    %%     LOWER_THAN
-    %%     EQUAL_TO
-    %%     GREATER_THAN
-    %%     NOT_COMPARABLE
-    %% }
 
     class BasicField {
         + printFieldType() string
